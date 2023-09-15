@@ -1,0 +1,259 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.header {
+    background-image: linear-gradient(rgba(24, 26, 26, 0.8) , rgba(0, 0, 0, 0.1)) , url(../images/eid.jpg);
+    background-size: 100%;
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+}
+.header nav {
+    color: white;
+    justify-content: center;
+
+}
+.header nav h2 {
+    padding: 40px;
+    padding-left: 50px;
+    justify-content: left;
+    font-family: monospace;
+    font-style: oblique;
+    text-shadow: 2px 4px #7d0512;
+    font-size: 50px;
+}
+.list {
+    display: flex;
+    justify-content: flex-end;
+}
+.list ul li a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    bottom: 80px;
+    padding: 10px 15px;
+    
+}
+.list ul {
+    display: inline-block;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 10px;
+    
+}
+.list ul button {
+    color: white;
+    background-color: gold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    bottom: 85px;
+}
+.list ul button:hover{
+    background-color: rgb(63, 61, 61);
+    cursor: pointer;
+}
+.list ul li a:hover{
+    color: rgb(63, 61, 61);
+    cursor: pointer;
+   
+}
+.header h3 {
+    color: white;
+    position: relative;
+    top: 40%;
+    left: 30%;
+    font-style: oblique;
+    font-family: monospace;
+    text-shadow: 2px 2px 5px #e7e2e2 ;
+    text-shadow: blur;
+    font-size: 50px;
+
+
+}
+span {
+    color: yellow;
+}
+.about-eid {
+    margin: 90px 200px;
+}
+.about-eid h2 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: gold;
+    text-shadow: 1px 3px 7px black;
+    opacity: 0.9;
+}
+.about-eid h4 {
+    font-size: 30px;
+    opacity: 0.5;
+
+}
+.divs {
+    display: flex;
+    text-align: center;
+    margin: 90px 200px;
+}
+.divs h3 {
+    padding: 30px 50px;
+}
+.half-circle,
+.equal,
+.ethernet,
+.exclmation {
+    width: calc((100% - 75px) / 4);
+
+}
+.divs i {
+    color: white;
+   font-size: 50px;
+}
+.half-circle,
+.ethernet {
+    background-color: grey;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow:5px 5px rgb(105, 102, 102);
+}
+.equal,
+.exclmation {
+    border-radius: 5px;
+    padding: 15px;
+    background-color: gold;
+    margin: 20px;
+    box-shadow: 5px 5px rgb(119, 117, 117);
+}
+.half-circle p,
+.ethernet p {
+    color: white;
+} 
+.gallery h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+    color: gold;
+    text-shadow: 1px 3px 7px black;
+    opacity: 0.9;
+
+}
+.imgs {
+    background-color: goldenrod;
+    margin-bottom: 200px;
+    margin: 0px 5px;
+}
+.imgs img {
+    width: 390px;
+    height: 370px;
+}
+.form {
+    background-image: linear-gradient(rgba(12, 12, 12, 0.3) , rgba(0, 0, 0, 0.5)) , url(../images/8.jpg);
+    width: 100%;
+    height: 750px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+.form form {
+    background-color: rgba(6, 63, 110, 0.6);
+    border: 5px solid gold;
+    width: 650px;
+    height: 400px;
+    margin-top: 150px;
+    padding: 30px;
+}
+.form .inputs input,
+textarea {
+    width: 600px;
+    margin-bottom: 20px;    
+    padding: 10px;
+    border: none;
+    background-color: rgba(6, 63, 110, 0.3);
+    border-bottom: 1px solid gold;
+}
+.form h3 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.form p {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+textarea {
+    height: 150px;
+}
+input[type="submit"] {
+    background-color: rgba(6, 63, 110, 0.3);
+    color: gold;
+    border: 1px solid white;
+    padding: 10px;
+    width: 90px;
+    margin-left: 300px;
+}
+input::placeholder,
+textarea::placeholder{
+    color: gold;
+}
+input[type="submit"]:hover{
+    background-color: rgba(207, 207, 183, 0.5);
+    cursor: pointer;
+}
+.footer {
+    background-color: gold;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.footer div ul li a{
+    color: black;
+    text-decoration: none;
+    padding-left: 90px;
+    padding-top: 50px;
+}
+.footer div ul li{
+    list-style-type: none;
+}
+.footer div,
+.lorem,
+.adress {
+    width: calc(85% / 3);
+    padding-left: 70px;
+    padding-top: 90px;
+    opacity: 0.7;
+}
+.icons {
+    font-size: 40px;
+    position:absolute;
+    text-align: center;
+    margin-top: 230px;
+    
+}
+#icon1,
+#icon5 {
+    color: blue;
+    padding: 0px 10px;
+}
+#icon2 {
+    color: dodgerblue;
+    padding: 0px 10px;
+}
+#icon3 {
+    color: crimson;
+    padding: 0px 10px;
+}
+#icon4 {
+    color: blueviolet;
+    padding: 0px 10px;
+}
